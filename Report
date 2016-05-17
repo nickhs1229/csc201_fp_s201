@@ -1,3 +1,5 @@
+Nicholas Hitchens-Spellman
+
 The purpose of this program is to implement a series of functions in conjunction with provided Python code in order to produce a functional election prediction software.
 This is accomplished by approaching the different incomplete functions in a step-by-step manner, building upon each section in order to produce a functional final product.
 Within these various functions, the most important variables utilized are the "dict" and "set" variables.
