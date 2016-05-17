@@ -53,8 +53,9 @@ def state_edges(election_result_rows):
         *StateEdges*: 
             dictionary from *State* (string) to *Edge* (float)
     """
-    return dict(election_result_rows["State"],":",election_result_rows       #Produce a dictionary consisting of the "State" elements,
-    [float(election_result_rows["Dem"]) - float(election_result_rows["Rep"]) #a ":" sign, and then the calculated state edges
+    return dict(election_result_rows["State"],":",election_result_rows
+    [float(election_result_rows["Dem"]) - float(election_result_rows["Rep"])
+    #Produce a dictionary consisting of the "State" elements, a ":" sign, and then the calculated state edges
 
 
 ################################################################################
