@@ -91,12 +91,14 @@ def most_recent_poll_row(poll_rows, pollster, state):
     for i in range(len(poll_rows)):
         if poll_rows[i]["Pollster"] == pollster and poll_rows[i]["State"] ==
         state:
-            output = poll_rows[i]
+            output = dict(poll_rows[i])
         elif earlier_date(poll_rows[i]["Date"], output ["Date"]):
-            output = poll_rows[i]
+            output = dict(poll_rows[i])
         else:
             output = None
     return output
+    #Define the output in terms of a range relative to the length of the poll_rows variable, and then produce specified outputs as
+    #either dictionaries or nothing depending on whether earlier_date and poll_rows are properly defined
 
 
 ################################################################################
