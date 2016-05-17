@@ -116,8 +116,12 @@ def unique_column_values(rows, column_name):
     Returns:
         A set: containing all unique values in column `column_name`
     """
-    #TODO: Implement this function
-    pass
+    for i in rows:
+        if rows[i] == collumn_name:
+            output = set(rows[i])
+    return output
+    #Define the output in terms of a specified value within the "rows" list that corresponds to the location of the collumn_name
+    #string and then return the output as a set
 
 
 def pollster_predictions(poll_rows):
