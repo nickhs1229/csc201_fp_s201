@@ -1,0 +1,8 @@
+The purpose of this program is to implement a series of functions in conjunction with provided Python code in order to produce a functional election prediction software.
+This is accomplished by approaching the different incomplete functions in a step-by-step manner, building upon each section in order to produce a functional final product.
+Within these various functions, the most important variables utilized are the "dict" and "set" variables.
+Both of these proved necessary on multiple occasions in order to specify the type of output that should be produced from each function.
+However, even with these clarrifications the completion of this project proved difficult due to the complexity of certain outputs required.
+Most notably, any failure to fully implement one function accurately would severely detract from the possibility of completing further functions.
+That being said, the step-by-step approach also allowed for a logical and effective approach to each section of the project.
+This served as a useful means of direction in terms of what areas to focus on.
