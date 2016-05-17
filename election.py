@@ -87,8 +87,15 @@ def most_recent_poll_row(poll_rows, pollster, state):
         A *PollDataRow*: a dictionary from string to string  OR 
         None, if no such row exists
     """
-    #TODO: Implement this function
-    pass
+    for i in range(len(poll_rows)):
+        if poll_rows[i]["Pollster"] == pollster and poll_rows[i]["State"] ==
+        state:
+            output = poll_rows[i]
+        elif earlier_date(poll_rows[i]["Date"], output ["Date"]):
+            output = poll_rows[i]
+        else:
+            output = None
+    return output
 
 
 ################################################################################
